@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tcpip - Win32 Debug--------------------
+</h3>
+
+
+Microsoft (R) Program Maintenance Utility   Version 6.00.8168.0
+Copyright (C) Microsoft Corp 1988-1998. All rights reserved.
+
+ pip-gcc -c -O2 -o tcpip.o tcpip.c
+ pip-gcc -o tcpip.mpn tcpip.o res.o -mstack=10240 -ldatacert -s
+
+
+
+<h3>Results</h3>
+tcpip.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

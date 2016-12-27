@@ -1,0 +1,23 @@
+: NICK :jack7
+:jack 001 jack7 :Welcome to the MyIRC jack7!Il100@localhost
+:jack 002 jack7 :Your host is jack, running JoinMe141
+:jack 003 jack7 :This server was created Thu Jun 14 at 2001
+:jack 004 jack7 jack JoinMe141 iswo opsitnmlbvk 
+:jack 005 jack7 SAFELIST MAXBANS=16 NICKLEN=22 CHANTYPES=&# PREFIX=@+ NETWORK=MyNet GREEKLISH:are available on this server 
+:jack 251 jack7 :There are 2 users and 1 services on 1 servers
+:jack 252 jack7 0 :operator(s) online
+:jack 253 jack7 1 :unknown connection(s)
+:jack 254 jack7 1 :channels formed
+:jack 255 jack7 :I have 2 clients, 1 services and 1 servers
+:jack 375 jack7 :- MyIRC Message of the day - 
+:jack 372 jack7 :- Andrey +79
+:jack 372 jack7 :- типа notd файл аднака
+:jack 376 jack7 :End of /MOTD command
+:jack7!Il100@localhost JOIN :#dustrap
+:jack 331 jack7 #dustrap 
+:jack 353 jack7 = #dustrap :@joe111 jack7
+:jack 366 jack7 #dustrap :End of /NAMES list.
+:jack7!Il100@localhost JOIN :#dustrap
+:joe111!win@localhost PRIVMSG jack7 :PING 1098883866
+PING :jack
+ERROR :Closing Link: jack (Ping timeout)
